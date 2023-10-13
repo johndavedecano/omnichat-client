@@ -1,6 +1,6 @@
 {
   "name": "omnichat-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
@@ -42,7 +42,6 @@
   "types": "./dist/index.d.ts",
   "type": "module",
   "dependencies": {
-    "@tabler/icons-svelte": "^2.39.0",
     "svelte-avatar": "^1.2.0"
   }
 }

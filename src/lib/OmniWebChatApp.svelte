@@ -17,8 +17,9 @@
 </div>
 
 <style lang="postcss">
-  @import "./style.css";
-
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
   .omni-web-chat {
     --font-family: "Roboto", sans-serif;
     --header-height: 75px;

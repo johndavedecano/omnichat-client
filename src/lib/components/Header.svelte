@@ -1,7 +1,8 @@
 <script>
   import store from "./../store.js";
   import Avatar from "svelte-avatar";
-  import { IconArrowsDiagonalMinimize, IconX } from "@tabler/icons-svelte";
+  import CloseIcon from "./CloseIcon.svelte";
+  import MinimizeIcon from "./MinimizeIcon.svelte";
 </script>
 
 <div class="omni-header">
@@ -16,11 +17,11 @@
   </div>
 
   <button title="minimize">
-    <IconArrowsDiagonalMinimize />
+    <MinimizeIcon />
   </button>
 
   <button class="omni-end-btn" title="End Chat">
-    <IconX /> <span> End Chat </span>
+    <CloseIcon /> <span> End Chat </span>
   </button>
 </div>
 
@@ -39,10 +40,15 @@
   }
 
   button.omni-end-btn > span {
-    @apply hidden md:inline;
+    @apply hidden md:inline text-base;
   }
 
   button {
-    @apply bg-transparent border-none rounded-sm inline-flex p-2 text-white items-center gap-2 cursor-pointer;
+    @apply bg-transparent border-none rounded-sm inline-flex p-2 text-white items-center gap-2 cursor-pointer text-xl;
+  }
+
+  button :global(svg) {
+    width: 1em;
+    height: 1em;
   }
 </style>
