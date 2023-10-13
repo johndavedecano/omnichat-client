@@ -1,8 +1,6 @@
 <script>
   import { onMount } from "svelte";
 
-  import "./style.css";
-
   import Header from "./components/Header.svelte";
   import MessageList from "./components/MessageList.svelte";
   import MessageControls from "./components/MessageControls.svelte";
@@ -18,7 +16,9 @@
   <MessageControls />
 </div>
 
-<style>
+<style lang="postcss">
+  @import "./style.css";
+
   .omni-web-chat {
     --font-family: "Roboto", sans-serif;
     --header-height: 75px;

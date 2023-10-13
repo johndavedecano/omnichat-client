@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/lib/**/*.{html,js,svelte}"],
   theme: {
     extend: {},
     screens: {

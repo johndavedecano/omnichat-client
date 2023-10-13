@@ -20,7 +20,7 @@
   </div>
 </div>
 
-<style>
+<style ang="postcss">
   .omni-message-list {
     height: calc(100vh - var(--control-height) - var(--header-height));
     max-height: calc(100vh - var(--control-height) - var(--header-height));

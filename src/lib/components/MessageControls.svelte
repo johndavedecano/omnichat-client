@@ -24,7 +24,7 @@
   </div>
 </div>
 
-<style>
+<style ang="postcss">
   .omni-controls {
     min-height: var(--control-height);
     @apply bg-gray-50 flex items-center flex items-stretch;
