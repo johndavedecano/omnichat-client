@@ -1,7 +1,8 @@
 <script>
   import { onMount } from "svelte";
 
-  import store from "./store.js";
+  import "./style.css";
+
   import Header from "./components/Header.svelte";
   import MessageList from "./components/MessageList.svelte";
   import MessageControls from "./components/MessageControls.svelte";
